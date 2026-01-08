@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Award, Users, Globe, Leaf, CheckCircle, TrendingUp } from 'lucide-react';
 import heroImage from '@/assets/hero-cashews.jpg';
+import founderImage from '@/assets/Sudhagar.jpg';
 
 const About = () => {
   useEffect(() => {
@@ -50,7 +51,7 @@ const About = () => {
           <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">Meet Our Founder</h2>
           <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-primary/20">
             <img 
-              src="/Sudhagar.jpg" 
+              src={founderImage} 
               alt="Sudhagar P - Founder & Managing Director of R S Enterprises" 
               className="w-full h-full object-cover"
             />
