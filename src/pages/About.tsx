@@ -64,17 +64,11 @@ const About = () => {
 
       {/* Stats Section */}
       <section className="mb-12">
-        <div className="grid gap-6 md:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-3">
           <Card className="text-center">
             <CardContent className="pt-6">
               <div className="text-4xl font-bold text-primary mb-2">2017</div>
               <div className="text-sm text-muted-foreground">Year Established</div>
-            </CardContent>
-          </Card>
-          <Card className="text-center">
-            <CardContent className="pt-6">
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Countries Served</div>
             </CardContent>
           </Card>
           <Card className="text-center">
@@ -145,51 +139,6 @@ const About = () => {
               <span className="text-muted-foreground">{item}</span>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Our Journey */}
-      <section className="mb-12 bg-muted/50 rounded-lg p-8">
-        <h2 className="font-serif text-2xl md:text-3xl font-bold mb-6 text-center">Our Journey</h2>
-        <div className="max-w-3xl mx-auto">
-          <div className="space-y-6">
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-20 text-right">
-                <span className="font-bold text-primary">2017</span>
-              </div>
-              <div className="border-l-2 border-primary pl-4 pb-6">
-                <h4 className="font-semibold">Company Founded</h4>
-                <p className="text-sm text-muted-foreground">Sudhagar P establishes R S Enterprises in Pondicherry with a vision to deliver premium cashews.</p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-20 text-right">
-                <span className="font-bold text-primary">2019</span>
-              </div>
-              <div className="border-l-2 border-primary pl-4 pb-6">
-                <h4 className="font-semibold">First Export Shipment</h4>
-                <p className="text-sm text-muted-foreground">Successfully completed our first international export order, marking our entry into global markets.</p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-20 text-right">
-                <span className="font-bold text-primary">2021</span>
-              </div>
-              <div className="border-l-2 border-primary pl-4 pb-6">
-                <h4 className="font-semibold">Certifications Achieved</h4>
-                <p className="text-sm text-muted-foreground">Obtained ISO, HACCP, Organic, and FSSAI certifications, strengthening our quality credentials.</p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-20 text-right">
-                <span className="font-bold text-primary">2024</span>
-              </div>
-              <div className="border-l-2 border-primary pl-4 pb-6">
-                <h4 className="font-semibold">Expanding Horizons</h4>
-                <p className="text-sm text-muted-foreground">Now serving 15+ countries with an expanded product range and enhanced processing capabilities.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
