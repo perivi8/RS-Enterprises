@@ -48,8 +48,12 @@ const About = () => {
       <section className="mb-12 bg-muted/50 rounded-lg p-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">Meet Our Founder</h2>
-          <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-            <Users className="w-12 h-12 text-primary" />
+          <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-primary/20">
+            <img 
+              src="/Sudhagar.jpg" 
+              alt="Sudhagar P - Founder & Managing Director of R S Enterprises" 
+              className="w-full h-full object-cover"
+            />
           </div>
           <h3 className="text-xl font-semibold mb-2">Sudhagar P</h3>
           <p className="text-muted-foreground mb-4">Founder & Managing Director</p>
