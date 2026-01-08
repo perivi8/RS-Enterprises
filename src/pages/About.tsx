@@ -46,8 +46,8 @@ const About = () => {
       </section>
 
       {/* Founder Section */}
-      <section className="mb-12 bg-muted/50 rounded-lg p-8">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="mb-12 bg-muted/50 rounded-lg p-8 -mx-4">
+        <div className="text-center px-4">
           <h2 className="font-serif text-2xl md:text-3xl font-bold mb-4">Meet Our Founder</h2>
           <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-primary/20">
             <img 
@@ -58,7 +58,7 @@ const About = () => {
           </div>
           <h3 className="text-xl font-semibold mb-2">Sudhagar P</h3>
           <p className="text-muted-foreground mb-4">Founder & Managing Director</p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground max-w-3xl mx-auto">
             With a deep passion for quality and a vision to put Indian cashews on the global map, Sudhagar P established 
             R S Enterprises in 2017. His hands-on approach to business, commitment to ethical sourcing, and dedication to 
             customer satisfaction have been the driving forces behind the company's success. Under his leadership, 
